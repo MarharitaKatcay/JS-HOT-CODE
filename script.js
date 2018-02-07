@@ -42,14 +42,14 @@
                 
                 }
          }
-        function cubeClick() {
+        /* function cubeClick() {
                 // $(this).click(function () {
                 //     $(this).css("visibility", "hidden");
                 $(this).hide(2000, function () {
                 $(this).remove();
 
                 });
-        }
+        } */
 
        /*  for (var i = 0; i < 5; i++) {
             $("<div>;").appendTo(document.body);
