@@ -1,0 +1,40 @@
+#centeredDiv {
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height:100px;
+    /* margin: -50px 0 0 -100px; */
+    transform: translate(-50%, -50%);
+    background: #e99c9c;
+}
+
+#containerStyle{
+    height: 500px;
+    width: 1260px;
+    border: 3px dashed red;
+    margin-top: 30px
+}
+table{
+    display:block;
+    margin:0 auto;
+    width: 900px;
+}
+td{padding:8px;}
+
+.cube{
+    position:absolute;
+    height: 60px;
+    width:60px;
+    background-color: green;
+    border: 2px solid black;
+}
+
+.smallCube{
+    height: 60px;
+    width:60px;
+    background-color: red;
+    margin:25% auto;
+    box-sizing: border-box;
+    position: absolute;
+}
